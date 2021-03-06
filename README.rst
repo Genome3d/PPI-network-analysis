@@ -3,7 +3,7 @@ Louvain clustering and centrality analysis on protein-protein interaction(PPI) n
 ======================================================================================
 
 
-This repository contain python scripts used -
+This repository contain python scripts
      
 *  to detect statistically significant communities from PPI network.
 *  to perform centrality analysis
