@@ -25,17 +25,22 @@ For significant community detection
 
      python python/find__significant_module.py -n example/example_network.txt -g example/example_input.txt -o output_dir
 
-For details::
+For details:
+
+.. code-block:: bash
 
      python python/find__significant_module.py -h
 
 For centrality analysis
------------------------
-::
+***********************
+
+.. code-block:: bash
 
      python python/perform_centrality_analysis.py -n example/example_network.txt -g example/example_input.txt -o output_dir
 
-For details::
+For details:
+
+.. code-block:: bash
 
      python python/perform_centrality_analysis.py -h
 
