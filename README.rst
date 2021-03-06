@@ -11,7 +11,7 @@ Requirements
 ============
 
 * python 3.0
-* networkX 2.4
+* networkx 2.4
 * qstest 1.1.0
 * pandas 1.0.4
 
