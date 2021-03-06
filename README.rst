@@ -33,8 +33,9 @@ For more options::
 
 For centrality analysis
 -----------------------
+::
 
-     .. python python/perform_centrality_analysis.py -n example/example_network.txt -g example/example_input.txt -o output_dir
+     python python/perform_centrality_analysis.py -n example/example_network.txt -g example/example_input.txt -o output_dir
 
 For more options::
 
