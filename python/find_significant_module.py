@@ -192,7 +192,7 @@ if __name__ == "__main__":
         print (message)
         sys.exit(0)
     
-
+    
     if args.out == 'none':
         message = ''' 
         ERROR: you must specify path to save the output file.
@@ -216,6 +216,10 @@ if __name__ == "__main__":
     
     
     # Generating subgraph with genes from the input file and write it to the output file as edgelist
+    
+    if not os.path.exists(args.out):
+        os.makedirs(args.out)
+    
     g = nx.Graph(G.subgraph(input_genes_in_network))
     if g.number_of_edges() != 0:
         print ("\tGenerating subgraph from the input genes and writing to subgraph.txt in the output directory\n") 
@@ -240,7 +244,6 @@ if __name__ == "__main__":
 
     stat_test = qs.qstest(g, communities, find_modularity, find_size, louvain, num_of_rand_net = int(args.random), num_of_thread = int(args.threads))
     values = [list(x) for x in stat_test]
-    print (values)
     sg = values[0]
     pval = values[1]
 

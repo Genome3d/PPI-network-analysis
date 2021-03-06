@@ -214,6 +214,10 @@ if __name__ == "__main__":
     print("\tSubgraph generated.")
     print("\tSubgraph contains %s nodes and %s edges." %(g.number_of_nodes(), g.number_of_edges()))
     print("\tWriting edgelist of subgraph to output file (cluster_subgraph.txt).\n")
+    
+    if not os.path.exists(args.out):
+        os.makedirs(args.out)
+    
     path = os.path.join(args.out, 'cluster_subgraph.txt')
     f = open(path, 'wb')
     nx.write_edgelist(g, path = f, delimiter='\t', data=False, encoding='utf-8')
