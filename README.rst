@@ -10,7 +10,7 @@ This repository contain python scripts used -
 
 
 Requirements
-------------
+============
 
 * python 3.0
 * networkX 2.4
