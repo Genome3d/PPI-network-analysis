@@ -1,6 +1,6 @@
 
-Clustering protein-protein interaction(PPI) network using Louvain community detection algorithm
-===============================================================================================
+Louvain clustering and centrality analysis on protein-protein interaction(PPI) network 
+======================================================================================
 
 
 This repository contain python scripts used -
