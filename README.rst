@@ -18,7 +18,7 @@ Requirements
 * pandas 1.0.4
 
 Usage
------
+=====
 
 On Terminal/shell:
 
@@ -32,6 +32,7 @@ For more options::
      python python/find__significant_module.py -h
 
 For centrality analysis::
+-----------------------
 
      python python/perform_centrality_analysis.py -n example/example_network.txt -g example/example_input.txt -o output_directory
 
@@ -40,7 +41,7 @@ For more options::
      python python/perform_centrality_analysis.py -h
 
 References
-----------
+==========
 
 .. [#] Blondel, V. D., Guillaume, J. L., Lambiotte, R. & Lefebvre, E. Fast unfolding of communities in large networks. J. Stat. Mech. Theory Exp. 2008, (2008).
 .. [#] Kojaku, S. & Masuda, N. A generalised significance test for individual communities in networks. Sci. Rep. 8, 1–10 (2018).
