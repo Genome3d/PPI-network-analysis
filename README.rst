@@ -23,7 +23,7 @@ Usage
 For significant community detection
 -----------------------------------
 
-::
+.. code-block:: bash
 
      python python/find__significant_module.py -n example/example_network.txt -g example/example_input.txt -o output_dir
 
@@ -33,7 +33,7 @@ For details::
 
 For centrality analysis
 -----------------------
-::
+.. code-block:: python
 
      python python/perform_centrality_analysis.py -n example/example_network.txt -g example/example_input.txt -o output_dir
 
