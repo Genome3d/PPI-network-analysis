@@ -23,6 +23,7 @@ Usage
 On Terminal/shell:
 
 For significant community detection::
+-----------------------------------
 
      python python/find__significant_module.py -n example/example_network.txt -g example/example_input.txt -o output_directory
 
