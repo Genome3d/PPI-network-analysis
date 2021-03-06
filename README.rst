@@ -27,7 +27,7 @@ For significant community detection
 
      python python/find__significant_module.py -n example/example_network.txt -g example/example_input.txt -o output_dir
 
-For more options::
+For details::
 
      python python/find__significant_module.py -h
 
@@ -37,7 +37,7 @@ For centrality analysis
 
      python python/perform_centrality_analysis.py -n example/example_network.txt -g example/example_input.txt -o output_dir
 
-For more options::
+For details::
 
      python python/perform_centrality_analysis.py -h
 
